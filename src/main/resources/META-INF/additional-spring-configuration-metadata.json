@@ -2,7 +2,7 @@
   {
     "name": "jwt.key",
     "type": "java.lang.String",
-    "description": "A description for 'security.key'"
+    "description": "key used for jwt signature'"
   },
   {
     "name": "jwt.expiration",
