@@ -12,8 +12,8 @@ import org.springframework.web.bind.annotation.RestController;
 import com.jwt.authentication.dto.AuthResponse;
 import com.jwt.authentication.dto.LoginRequest;
 import com.jwt.authentication.dto.SignupRequest;
+import com.jwt.authentication.security.JwtUtil;
 import com.jwt.authentication.service.CustomUserDetailsService;
-import com.jwt.authentication.utils.JwtUtil;
 
 @RestController
 @RequestMapping("/auth")

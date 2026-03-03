@@ -7,9 +7,9 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import com.jwt.authentication.dto.SignupRequest;
-import com.jwt.authentication.entity.CustomUserDetails;
 import com.jwt.authentication.entity.User;
 import com.jwt.authentication.repository.UserRepository;
+import com.jwt.authentication.security.CustomUserDetails;
 
 @Service
 public class CustomUserDetailsService implements UserDetailsService{

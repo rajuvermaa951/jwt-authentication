@@ -1,4 +1,4 @@
-package com.jwt.authentication.utils;
+package com.jwt.authentication.security;
 
 import java.util.Date;
 
@@ -6,7 +6,7 @@ import javax.crypto.SecretKey;
 
 import org.springframework.stereotype.Component;
 
-import com.jwt.authentication.mapping.JwtProperties;
+import com.jwt.authentication.config.JwtProperties;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
